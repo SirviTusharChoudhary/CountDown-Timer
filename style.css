@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #02030a;
+    font-family: "Silkscreen", sans-serif;
+    color: white;
+}
+
+p{
+    font-size: 2.5rem;
+}
+nav {
+    height: 60px;
+    background-color: #0b0f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #c9c3ff;
+    border-bottom: 2px solid #4d3bcc;
+    box-shadow: 0 0 15px #4d3bcc;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 40px;
+}
+
+.timer {
+    width: 500px;
+    height: 180px;
+    background-color: #0d1122;
+    border: 2px solid #5c48d8;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    color: #eae5ff;
+    box-shadow: 0 0 20px #5c48d8;
+}
+
+.setTimer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.setter {
+    width: 140px;
+    height: 50px;
+    background-color: #0c162b;
+    color: #8de6ff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px #172a40;
+}
+
+.setter:hover {
+    background-color: #122038;
+    box-shadow: 0 0 18px #4bc7ff;
+}
+
+.setter:active {
+    background-color: #0a1424;
+    box-shadow: 0 0 10px #2b6080;
+}
